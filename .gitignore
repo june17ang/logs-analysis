@@ -1,1 +1,4 @@
+.idea/
+.vagrant/
 newsdata.zip
+newsdata.sql

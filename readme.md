@@ -4,6 +4,7 @@ List all top 3 articles, top 5 authors and find request error that more then 1% 
 
 #### Prerequisites
 - Python 2.7+
+- psycopg2
 - Vagrant
 - VirtualBox
 

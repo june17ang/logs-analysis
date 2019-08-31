@@ -12,9 +12,11 @@ Vagrant.configure("2") do |config|
 
     apt-get -qqy install python3 python3-pip
     pip3 install --upgrade pip
+    sudo pip3 install psycopg2-binary
 
     apt-get -qqy install python python-pip
     pip2 install --upgrade pip
+    sudo pip2 install psycopg2-binary
 
     su postgres -c 'createuser -dRS vagrant'
     su vagrant -c 'createdb'

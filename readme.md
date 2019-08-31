@@ -30,3 +30,17 @@
 - SSH into vagrant <br>
 ```vagrant ssh```
 
+- Change to project directory <br>
+```cd /vagrant```
+
+- Import newsdata.sql into news database <br>
+```psql -d news -f newsdata.sql```
+
+- Check newsdb.py is in /vagrant directory <br>
+```ls -lrt```
+
+- Run newsdb.py to generate result
+```python newsdb.py```
+
+- View result <br>
+```cat result.txt```

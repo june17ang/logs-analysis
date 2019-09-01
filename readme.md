@@ -3,7 +3,7 @@
 List all top 3 articles, top 5 authors and find request error that more then 1% per day from news database.
 
 #### Prerequisites
-- Python 2.7+
+- Python 3.6++
 - psycopg2
 - Vagrant
 - VirtualBox
